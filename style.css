@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #6b6054;
+    /* background-color: #6b6054; */
+    background-color: rgb(83, 45, 4);
 }
 .navbar-brand {
     font-family: 'Satisfy', cursive;
