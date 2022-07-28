@@ -12,7 +12,8 @@
 }
 
 .active {
-    font-style: italic;
+    /* font-style: italic; */
+    color: #929487;
 }
 
 .mainP {
