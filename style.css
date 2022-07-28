@@ -6,6 +6,9 @@
     color: white;
 }
 
+.navbar-brand:hover {
+    
+}
 .mainHeader {
     font-family: 'Satisfy', cursive;
     text-align: center;
@@ -23,7 +26,6 @@
 }
 
 .nav-item:hover {
-    color: orange;
     background-color: #929487;
 }
 
