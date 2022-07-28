@@ -1,13 +1,18 @@
 .navbar {
-    background: transparent;
+    background-color: #6b6054;
 }
 .navbar-brand {
     font-family: 'Satisfy', cursive;
+    color: white;
 }
 
 .mainHeader {
     font-family: 'Satisfy', cursive;
     text-align: center;
+}
+
+.active {
+    font-style: italic;
 }
 
 .mainP {
@@ -18,7 +23,7 @@
 
 .nav-item:hover {
     color: orange;
-    background-color: #ffcf88;
+    background-color: #929487;
 }
 
 a:active {
@@ -32,7 +37,7 @@ a:active {
 }
 
 .card:hover {
-    background-color: #ffc107;
+    background-color: #929487;
 }
 
 
