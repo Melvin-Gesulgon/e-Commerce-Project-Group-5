@@ -67,7 +67,7 @@ a:active {
     /* font-family: 'Poppins', sans-serif;} */
 
 h4 {
-    color: #ff9b08;
+    /* color: #ff9b08; */
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bolder;
@@ -76,6 +76,7 @@ h4 {
     width: 50%;
     height: auto;
 }
+
 
 .btn-secondary {
     background-color: rgba(83, 45, 4, 1);
