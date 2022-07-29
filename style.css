@@ -1,6 +1,6 @@
 .navbar {
     /* background-color: #6b6054; */
-    background-color: rgb(83, 45, 4);
+    background-color: rgba(83, 45, 4, 1);
 }
 .navbar-brand {
     font-family: 'Satisfy', cursive;
@@ -32,7 +32,7 @@ a:active {
 }
 
 .card {
-    background-color: rgb(83, 45, 4);
+    background-color: rgba(83, 45, 4, 0.75);
     margin-top: 2px;
     margin-bottom: 2px;
     /* box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62);
@@ -46,9 +46,9 @@ a:active {
     color: aliceblue;
 }
 
-.card:hover {
+/* .card:hover {
     background-color: #929487;
-}
+} */
 
 
 .card-title {
@@ -77,3 +77,11 @@ h4 {
     height: auto;
 }
 
+
+.btn-secondary {
+    background-color: rgba(83, 45, 4, 1);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.493);
+}
