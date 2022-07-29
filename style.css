@@ -1,14 +1,12 @@
 .navbar {
-    background-color: #6b6054;
+    background-color: #493323;
 }
 .navbar-brand {
     font-family: 'Satisfy', cursive;
     color: white;
 }
 
-.navbar-brand:hover {
-    
-}
+
 .mainHeader {
     font-family: 'Satisfy', cursive;
     text-align: center;
@@ -26,11 +24,7 @@
 }
 
 .nav-item:hover {
-    background-color: #929487;
-}
-
-a:active {
-    color: red;
+    background-color: #91684A;
 }
 
 .card {
@@ -40,12 +34,21 @@ a:active {
 }
 
 .card:hover {
-    background-color: #929487;
+    background-color: #91684A;
+}
+i {
+    padding: none;
+    border: none;
+}
+i:hover {
+    background-color: #91684A;
+    color: #91684A; 
+    background-position: center;
+    background-size: contain;
 }
 
-
 .card-title {
-    color: #ffcf88;
+    /* color: #ffcf88; */
     font-size: 20px;
     
 }
@@ -63,3 +66,18 @@ h4 {
     font-size: 20px;
     font-weight: bolder;
 }
+
+/* .btn {
+    background-color:rgba(251, 251, 251, 0.15);
+    color:  rgba(251, 251, 251, 0.15);
+} */
+
+.btn:hover {
+    background-color: #91684A;
+}
+
+/* .chef-btn {
+    color: #493323; */
+}
+
+
