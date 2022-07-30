@@ -1,15 +1,12 @@
 .navbar {
     /* background-color: #6b6054; */
-    background-color: rgb(83, 45, 4);
+    background-color: rgba(83, 45, 4, 1);
 }
 .navbar-brand {
     font-family: 'Satisfy', cursive;
     color: white;
 }
 
-.navbar-brand:hover {
-    
-}
 .mainHeader {
     font-family: 'Satisfy', cursive;
     text-align: center;
@@ -35,7 +32,7 @@ a:active {
 }
 
 .card {
-    background-color: rgb(83, 45, 4);
+    background-color: rgba(83, 45, 4, 0.75);
     margin-top: 2px;
     margin-bottom: 2px;
     border: solid rgb(61, 32, 1);;
@@ -50,8 +47,9 @@ a:active {
     color: aliceblue;
 }
 
-.card:hover {
+/* .card:hover {
     background-color: #929487;
+
     display:block;
     transform: scale(1.1);
     transform-style:flat;
@@ -78,12 +76,22 @@ a:active {
     /* font-family: 'Poppins', sans-serif;} */
 
 h4 {
-    color: #ff9b08;
+    /* color: #ff9b08; */
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bolder;
 }
+
 .imgWidth{
     width: 50%;
     height: auto;
+}
+
+
+.btn-secondary {
+    background-color: rgba(83, 45, 4, 1);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.493);
 }
