@@ -38,6 +38,7 @@ a:active {
     background-color: rgb(83, 45, 4);
     margin-top: 2px;
     margin-bottom: 2px;
+    border: solid rgb(61, 32, 1);;
     /* box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62);
 -webkit-box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62);
 -moz-box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62); */
@@ -51,6 +52,13 @@ a:active {
 
 .card:hover {
     background-color: #929487;
+    display:block;
+    transform: scale(1.1);
+    transform-style:flat;
+    transition-delay: 0.4s;
+    transition-duration: 0.8s;
+    z-index: 5;
+
 }
 
 
